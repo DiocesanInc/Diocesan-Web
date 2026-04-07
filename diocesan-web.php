@@ -68,11 +68,11 @@ require DIOCESAN_WEB_DIR . '/plugin-updates/plugin-update-checker.php';
 
 $UpdateChecker = PucFactory::buildUpdateChecker(
 
-	'https://github.com/DiocesanInc/DPI-Bulletins',
+	'https://github.com/DiocesanInc/Diocesan-Web',
 
-	DIOCESAN_WEB_DIR . '/dpi-bulletins.php',
+	DIOCESAN_WEB_DIR . '/diocesan-web.php',
 
-	'dpi-bulletins'
+	'diocesan-web'
 
 );
 
