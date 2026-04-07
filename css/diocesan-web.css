@@ -1,0 +1,74 @@
+/*** Diocesan Support ***/
+#welcome-panel {
+	display: none;
+}
+#diocesan-logo {
+	width: 200px;
+}
+#diocesan-web-support a {
+	color: #f26c4f;
+}
+#diocesan-web-support .welcome-panel-column {
+	width: 25%;
+	display: block; /*** since 5.9 ***/
+}
+#diocesan-web-support {
+	padding-bottom: 20px;
+}
+#diocesan-web-support.welcome-panel .welcome-icon::before {
+	color: #404040;
+}
+#diocesan-notice.notice {
+	background: yellow;
+}
+#diocesan-notice.alert {
+	background: red;
+}
+#diocesan-notice {
+	/*padding: 5px 20px;
+	margin-bottom: 20px;*/
+	/*border-left: 0px;*/
+}
+#diocesan-notice.notice p {
+	color: #000;
+}
+/*** WP 5.9 ***/
+#diocesan-web-support.welcome-panel {
+	background: #fff;
+	padding: 23px 23px 0;
+    border: 1px solid #c3c4c7;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 4%);
+}
+#diocesan-web-support.welcome-panel::before {
+	display: none;
+}
+#diocesan-web-support.welcome-panel .welcome-panel-column-container {
+    display: flex;
+    padding: 0;
+    margin-top: 10px;
+}
+#diocesan-web-support .welcome-panel-content {
+    min-height: 250px;
+    display: block;
+}
+#diocesan-web-support.welcome-panel .about-description {
+    font-size: 16px;
+    margin: 0;
+}
+@media screen and (max-width:870px) {
+	.welcome-panel .welcome-panel-column, .welcome-panel .welcome-panel-column:first-child {
+		float: left;
+		width: 50%;
+	}
+	.welcome-panel .welcome-panel-column li {
+		display: block;
+	}
+	#diocesan-web-support .welcome-panel-column {
+		width: 50%;
+	}
+}
+@media screen and (max-width:580px) {
+	#diocesan-web-support .welcome-panel-column {
+		width: 100%;
+	}
+}
